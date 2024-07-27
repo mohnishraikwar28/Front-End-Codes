@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Image Button Demo</title>
+		<script type="text/javascript">
+			function showmsg() {
+				var str = document.getElementById("username").value;
+				alert("Hello " + str);
+			}
+		</script>
+	</head>
+
+	<body>
+		<form>
+			What is your name ?<input type="text" name="user" id="username" /><br />
+
+			<br />
+			<button onClick="showmsg()">
+				<img src="../media/images/audio.gif" />
+			</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rajdhani:wght@500&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: white;
+}
+.container {
+  overflow: auto;
+  background-color: #303338;
+}
+
+.logo p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: antiquewhite;
+  float: left;
+  padding: 10px;
+}
+nav {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a {
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: orange;
+}
+/*welcome content*/
+.welcome-container {
+  position: relative;
+}
+.welcome-container img {
+  width: 100%;
+  height: 500px;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*welcome content*/
+
+/*About Us*/
+.about-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-container p {
+  font-size: 20px;
+}
+/*About us*/
+
+/* Clear floats after the columns */
+.mainmenu {
+  display: table;
+  margin: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.menuitem {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.menuBox {
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.menuBox img {
+  width: 100%;
+}
